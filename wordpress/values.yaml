@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: nginx
+  repository: "wordpress"
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "5.5.1-php7.2-apache"
 
 imagePullSecrets: []
 nameOverride: ""
