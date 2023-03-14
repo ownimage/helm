@@ -5,7 +5,7 @@ services:
     ports:
       - "80:80"
     environment:
-      - DRONE_SERVER_HOST=ownimage.ddns.net:80
+      - DRONE_SERVER_HOST=ownimage.ddns.net
       - DRONE_SERVER_PROTO=http
       - DRONE_SERVER_PROXY_PROTO=https
       - DRONE_RPC_SECRET=47f04d07742a7c1d6e269da408ecee15fbbd0846
@@ -26,4 +26,5 @@ services:
       - DRONE_TMATE_ENABLED=true
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
+
 
