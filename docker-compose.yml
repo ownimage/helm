@@ -14,7 +14,7 @@ services:
       - DRONE_GITHUB_CLIENT_ID=f3de1f2e786b2760f44c
       - DRONE_GITHUB_CLIENT_SECRET=00c20bc1c47d71a211fcc33be1d342a34a5ef14a
       - DRONE_LOGS_DEBUG=true
-      - DRONE_CRON_DISABLED=true
+#      - DRONE_CRON_DISABLED=true
     volumes:
       - ./data:/data
   runner:
