@@ -1,6 +1,6 @@
 kind: pipeline
 type: docker
-name: Default
+name: default
 
 steps:
   - name: greetings
