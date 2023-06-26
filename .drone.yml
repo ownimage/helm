@@ -8,3 +8,5 @@ steps:
     commands:
       - env
       -  echo "Hello, world"
+      - pwd
+      - ls
